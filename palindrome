@@ -2,8 +2,8 @@ def is_palindrome(word):
     word = word.lower()  # Convert the word to lowercase for case-insensitive comparison
     reversed_word = word[::-1]  # Reverse the word using slicing
     return word == reversed_word  # Compare the original word with its reverse
+we delete the 6th line
 
-# Test the function
 input_word = input("Enter a word: ")
 if is_palindrome(input_word):
     print(f"{input_word} is a palindrome.")
